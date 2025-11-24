@@ -50,7 +50,7 @@ java IDCardApp
 
 ## 🎥 Demo Video
 
-https://github.com/Bedrock16/Java-Project/blob/main/img/sample.mp4
+https://raw.githubusercontent.com/Bedrock16/Java-Project/main/img/sample.mp4
 
 ---
 
@@ -102,6 +102,7 @@ WEBSITE=www.example.com
 * Drag & drop photo support
 
 ---
+
 
 
 
