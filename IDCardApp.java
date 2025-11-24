@@ -27,7 +27,7 @@ public class IDCardApp extends JFrame {
 
         setTitle("ID Generator - " + env.get("COLLEGE_NAME"));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(1000, 750); // Slightly wider frame
+        setSize(1000, 750);
         setLayout(new BorderLayout(10, 10));
 
         // Panels
@@ -165,7 +165,6 @@ public class IDCardApp extends JFrame {
         if (currentFront == null) return;
         
         BufferedImage toShow = showingFront ? currentFront : currentBack;
-        // Scale 1:1 for better visibility (400x600)
         Image scaled = toShow.getScaledInstance(400, 600, Image.SCALE_SMOOTH);
         imagePreviewLabel.setIcon(new ImageIcon(scaled));
         imagePreviewLabel.setText("");
@@ -193,4 +192,5 @@ public class IDCardApp extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new IDCardApp().setVisible(true));
     }
+
 }
