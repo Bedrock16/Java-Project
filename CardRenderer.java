@@ -12,7 +12,6 @@ public class CardRenderer {
         this.env = env;
     }
 
-    // UPDATED: Now accepts 'BufferedImage photo' as the second argument
     public BufferedImage createFront(Map<String, String> studentData, BufferedImage photo) {
         BufferedImage image = new BufferedImage(Theme.CARD_WIDTH, Theme.CARD_HEIGHT, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2d = setupGraphics(image);
@@ -54,8 +53,8 @@ public class CardRenderer {
         }
 
         // 4. Student Details
-        int startY = 230; // Moved up slightly to fit address
-        int gap = 32;     // Reduced gap between lines
+        int startY = 230;
+        int gap = 32;
         
         // Name (Large)
         g2d.setColor(Theme.PRIMARY);
@@ -186,4 +185,5 @@ public class CardRenderer {
         int x = (Theme.CARD_WIDTH - metrics.stringWidth(text)) / 2;
         g2d.drawString(text, x, y);
     }
+
 }
