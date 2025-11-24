@@ -12,7 +12,6 @@ public class EnvLoader {
             String line;
             while ((line = reader.readLine()) != null) {
                 line = line.trim();
-                // Skip comments and empty lines
                 if (line.isEmpty() || line.startsWith("#")) continue;
                 
                 String[] parts = line.split("=", 2);
@@ -22,7 +21,6 @@ public class EnvLoader {
             }
         } catch (IOException e) {
             System.err.println("Error reading .env file: " + e.getMessage());
-            // Fallback defaults if file missing
             config.put("COLLEGE_NAME", "Default University");
             config.put("PRIMARY_COLOR", "#000000");
         }
@@ -35,4 +33,5 @@ public class EnvLoader {
     public String get(String key, String defaultValue) {
         return config.getOrDefault(key, defaultValue);
     }
+
 }
