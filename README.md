@@ -48,8 +48,13 @@ java IDCardApp
 
 ---
 
-## 🖼️ Preview
+## 🎥 Demo Video
 
+https://github.com/Bedrock16/Java-Project/blob/main/img/sample.mp4
+
+---
+
+## 🖼️ Preview
 
 <table>
   <tr>
@@ -65,22 +70,6 @@ java IDCardApp
     </td>
   </tr>
 </table>
-
-
-
-### Front Side
-
-![Front Preview](https://github.com/Bedrock16/Java-Project/blob/main/img/ID_25ASD2346_Back.png)
-
-### Back Side
-
-![Back Preview](https://github.com/Bedrock16/Java-Project/blob/main/img/ID_25ASD2346_Back.png)
-
----
-
-## 🎥 Demo Video
-
-![Demo_Videp](https://github.com/Bedrock16/Java-Project/blob/main/img/sample.mp4)
 
 ---
 
@@ -113,5 +102,6 @@ WEBSITE=www.example.com
 * Drag & drop photo support
 
 ---
+
 
 
