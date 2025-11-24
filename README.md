@@ -52,11 +52,11 @@ java IDCardApp
 
 ### Front Side
 
-![Front Preview](add_link_here)
+![Front Preview]()
 
 ### Back Side
 
-![Back Preview](add_link_here)
+![Back Preview](https://github.com/Bedrock16/Java-Project/blob/main/img/ID_25ASD2346_Back.png)
 
 ---
 
@@ -95,3 +95,4 @@ WEBSITE=www.example.com
 * Drag & drop photo support
 
 ---
+
